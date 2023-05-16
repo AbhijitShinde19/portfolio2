@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    padding: 5px;
+}
+/* left side */
+.menu{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.menu div img{
+    width: 50%;
+    height: 50%;
+    border-radius: 120px;
+    justify-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.menu div h1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.icons{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .footer{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; *
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 100%;
+    font-size: 25px;
+} */
+
+/* right side */
+.hero{
+    /* background-image: linear-gradient( to top right, red, blue); */
+    background-image: url(/photos/3.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+}
+div #home{
+    /* background-color: aqua; */
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+#home h2{
+    font-size: 50px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+/* about section */
+h2,h3{
+    color: blue;
+}
+#about{
+    background-color: white;
+    padding: 25px;
+    border-bottom: 3px dotted black
+}
+#about p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.details{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.pic img{
+    width: 100%;
+    
+}
+.containt h3{
+    margin-left: 15px;
+}
+#about .containt div{
+    margin-left: 15px;
+    columns: 2;
+}
+.containt ul li{ 
+    font-size: 25px;
+    line-height: 55px;
+}
+
+/* resume section */
+#resume{
+    padding: 25px;
+    background-color: white;
+    font-size: 25px;
+    border-bottom: 3px dotted black
+}
+#resume .container{
+    columns: 2;
+    display: flex;
+    justify-content: center;
+    
+}
+/* */
+#project{
+    background-color: white;
+    font-size: 25px;
+    padding: 25px;
+}
+#project a{
+    background-color: white;
+    
+}
+
+.container{
+    padding: 25px;
+    background-color: white;
+    
+}
